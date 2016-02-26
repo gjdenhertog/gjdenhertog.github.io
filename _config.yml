@@ -19,7 +19,7 @@ social_linkedin: "https://www.linkedin.com/in/gjdenhertog"
 # JEKYLL - Misc
 #
 # Web Server Settings
-url: "gjdenhertog.github.io"
+url: "http://gjdenhertog.github.io"
 # url: "http://localhost:4000"
 # url: "http://estrattonbailey.com/Nominal" # Change this to match your domain name
 
@@ -34,7 +34,7 @@ paginate_path: words/page-:num
 permalink: words/:title
 permalink_base: words/
 # Build settings
-markdown: redcarpet
+# markdown: redcarpet
 # Sass Settings
 sass:
   sass_dir: _scss
