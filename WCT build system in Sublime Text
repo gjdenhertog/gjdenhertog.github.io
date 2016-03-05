@@ -1,8 +1,9 @@
 ---
-published: false
+published: true
 layout: post
 breadcrumb: WCT build system in Sublime Text
 ---
+
 
 The whole frontend of [ReSnap](http://www.resnap.com) is built on top of Polymer with a lot of self-made Polymer elements. To ensure the quality of the our elements and the application as a whole, we use the [Web Component Tester](https://github.com/Polymer/web-component-tester) (WCT).
 
