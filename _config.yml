@@ -1,41 +1,22 @@
-# SITE SETTINGS
-homepage_title: ShiftVision
-homepage_headline: "Joachim den Hertog"
-homepage_description: "Entrepeneur at ReSnap and ShiftVision"
-# META
-site_title: ShiftVision
-site_author: gjdenhertog
-site_description: "Joachim den Hertog - Entrepeneur at ReSnap and ShiftVision."
-site_keywords: 'shiftvision, javascript, nodejs, gjdenhertog, blog'
-# CUSTOMIZE 
-color_theme: nominal # only one theme right now, sry
-# SOCIAL
-social_twitter: "https://twitter.com/gjdenhertog"
-social_instagram: "https://www.instagram.com/gjdenhertog/"
-social_github: "https://github.com/gjdenhertog"
-social_linkedin: "https://www.linkedin.com/in/gjdenhertog"
-
-
-# JEKYLL - Misc
+# Permalinks
 #
-# Web Server Settings
-url: "http://gjdenhertog.github.io"
-# url: "http://localhost:4000"
-# url: "http://estrattonbailey.com/Nominal" # Change this to match your domain name
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
 
-# Gems
-gems: [jekyll-paginate]
-# Hide these files from jekyll build process.
-exclude: [README.md]
-# Blog pagination settings.
-paginate: 8
-paginate_path: words/page-:num
-# Permalink setting for posts.
-permalink: words/:title
-permalink_base: words/
-# Build settings
-# markdown: redcarpet
-# Sass Settings
-sass:
-  sass_dir: _scss
-  style: :compact
+# Setup
+title:               Lanyon
+tagline:             'A Jekyll theme'
+description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:                 http://lanyon.getpoole.com
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              Mark Otto
+  url:               https://twitter.com/mdo
+  email:             markdotto@gmail.com
+
+# Custom vars
+version:             1.0.0
