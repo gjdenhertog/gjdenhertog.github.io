@@ -1,7 +1,5 @@
 ---
-layout: post
-title: WCT build system in Sublime Text
-breadcrumb: WCT build system in Sublime Text
+published: false
 ---
 
 ## WCT build system in Sublime Text
